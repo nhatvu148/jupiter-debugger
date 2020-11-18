@@ -3,6 +3,7 @@ import sys
 # sys.path.append("C:\Program Files\TechnoStar\Jupiter-Pre_5.0")
 sys.path.append("./")
 import JPT
+from client import get_res_from_socket
 
 exe = sys.executable
 try:
@@ -18,7 +19,8 @@ try:
     print('break on this line 4')
     print(JPT)
     # propPath = JPT.GetAppPathInfo(JPT.PathType.PROGRAM_PATH)
-    propPath = JPT.fib2(1000)
+    # propPath = JPT.fib2(1000)
+    propPath = get_res_from_socket()
     print(propPath)
     # Geometry.Part.Cube(dlVdOrigin=[0,0,0], dlVdLength=[0.01,0.01,0.01], ilVlNodeCnt=[10,10,10], strPartName="Cube_1", iColPart=7105764, crCoord=None)
 finally:

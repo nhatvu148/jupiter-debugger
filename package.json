@@ -1,0 +1,14 @@
+{
+  "name": "jupiter-debugger",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/nhatvu148/jupiter-debugger.git",
+  "author": "nhatvu148 <nhatvu148@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^7.4.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
