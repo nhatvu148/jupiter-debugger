@@ -18,7 +18,7 @@ try:
     print('break on this line 4')
     print(JPT)
     # propPath = JPT.GetAppPathInfo(JPT.PathType.PROGRAM_PATH)
-    propPath = JPT.fib(1000)
+    propPath = JPT.fib2(1000)
     print(propPath)
     # Geometry.Part.Cube(dlVdOrigin=[0,0,0], dlVdLength=[0.01,0.01,0.01], ilVlNodeCnt=[10,10,10], strPartName="Cube_1", iColPart=7105764, crCoord=None)
 finally:
