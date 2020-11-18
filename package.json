@@ -6,6 +6,7 @@
   "author": "nhatvu148 <nhatvu148@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "papaparse": "^5.3.0",
     "ws": "^7.4.0"
   },
   "devDependencies": {

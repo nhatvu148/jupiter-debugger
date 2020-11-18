@@ -1,3 +1,4 @@
 {
-  "python.pythonPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3"
+  "python.pythonPath": "C:\\Program Files\\TechnoStar\\Jupiter-Pre_5.0\\python.exe",
+  "python.formatting.provider": "yapf"
 }
