@@ -1,14 +1,12 @@
 import asyncio
 
-@asyncio.coroutine
-def func_normal():
+async def func_normal():
     print('A')
-    yield from asyncio.sleep(5)
+    await asyncio.sleep(5)
     print('B')
     return 'saad'
 
-@asyncio.coroutine
-def func_infinite():
+async def func_infinite():
     for i in range(10):
         print("--%d" % i)
     return 'saad2'
