@@ -1,3 +1,3 @@
 from Jupiter import *
 
-print(JPT.RemoveAllByTableType())
+JPT.MacroListTCursorToListDItem('[10:1, 10:*1, ...]')

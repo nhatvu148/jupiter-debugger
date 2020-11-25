@@ -31,344 +31,459 @@ class EntityType:
 
 class JPT:
     EntityType = EntityType()
-    def RemoveEntitiesByID():
-        message = "JPT.RemoveEntitiesByID()"
-        return get_res_from_jupiter(message)
-    def RemoveEntitiesByName():
-        message = "JPT.RemoveEntitiesByName()"
-        return get_res_from_jupiter(message)
-    def RemoveAllConnections():
-        message = "JPT.RemoveAllConnections()"
-        return get_res_from_jupiter(message)
-    def RemoveAllLoadsBCs():
-        message = "JPT.RemoveAllLoadsBCs()"
-        return get_res_from_jupiter(message)
-    def RemoveAllContacts():
-        message = "JPT.RemoveAllContacts()"
-        return get_res_from_jupiter(message)
-    def RemoveAllLoadCases():
-        message = "JPT.RemoveAllLoadCases()"
-        return get_res_from_jupiter(message)
-    def RemoveAllCoordinates():
-        message = "JPT.RemoveAllCoordinates()"
-        return get_res_from_jupiter(message)
-    def RemoveAllMaterials():
-        message = "JPT.RemoveAllMaterials()"
-        return get_res_from_jupiter(message)
-    def RemoveAllMeshSettings():
-        message = "JPT.RemoveAllMeshSettings()"
-        return get_res_from_jupiter(message)
-    def RemoveWSProperties():
-        message = "JPT.RemoveWSProperties()"
-        return get_res_from_jupiter(message)
-    def RemoveAllFieldTables():
-        message = "JPT.RemoveAllFieldTables()"
-        return get_res_from_jupiter(message)
-    def RemoveAllAbaqusStep():
-        message = "JPT.RemoveAllAbaqusStep()"
-        return get_res_from_jupiter(message)
-    def RemoveAllSolverjob():
-        message = "JPT.RemoveAllSolverjob()"
-        return get_res_from_jupiter(message)
-    def RemoveAllByTableType():
-        message = "JPT.RemoveAllByTableType()"
-        return get_res_from_jupiter(message)
-    def CreateSubAssembly():
-        message = "JPT.CreateSubAssembly()"
-        return get_res_from_jupiter(message)
-    def DeleteSubAssembly():
-        message = "JPT.DeleteSubAssembly()"
-        return get_res_from_jupiter(message)
-    def FindSubAssemblyByName():
-        message = "JPT.FindSubAssemblyByName()"
-        return get_res_from_jupiter(message)
-    def FindSubAssemblyByID():
-        message = "JPT.FindSubAssemblyByID()"
-        return get_res_from_jupiter(message)
-    def DeleteSubAssemblyRecursively():
-        message = "JPT.DeleteSubAssemblyRecursively()"
-        return get_res_from_jupiter(message)
-    def GetAllPartsInSubAssembly():
-        message = "JPT.GetAllPartsInSubAssembly()"
-        return get_res_from_jupiter(message)
-    def CastToDItem():
-        message = "JPT.CastToDItem()"
-        return get_res_from_jupiter(message)
-    def CastDItemToDBody():
-        message = "JPT.CastDItemToDBody()"
-        return get_res_from_jupiter(message)
-    def CastDItemToDEdge():
-        message = "JPT.CastDItemToDEdge()"
-        return get_res_from_jupiter(message)
-    def CastDItemToDGroup():
-        message = "JPT.CastDItemToDGroup()"
-        return get_res_from_jupiter(message)
-    def CastDItemToDNode():
-        message = "JPT.CastDItemToDNode()"
-        return get_res_from_jupiter(message)
-    def CastDItemToDElem():
-        message = "JPT.CastDItemToDElem()"
-        return get_res_from_jupiter(message)
-    def DItemToMacroTCursor():
-        message = "JPT.DItemToMacroTCursor()"
-        return get_res_from_jupiter(message)
-    def DItemListToMacroListTCursor():
-        message = "JPT.DItemListToMacroListTCursor()"
-        return get_res_from_jupiter(message)
-    def DItemToMacroListTCursor():
-        message = "JPT.DItemToMacroListTCursor()"
-        return get_res_from_jupiter(message)
-    def MacroResultParser():
-        message = "JPT.MacroResultParser()"
-        return get_res_from_jupiter(message)
-    def MacroListTCursorToListDItem():
-        message = "JPT.MacroListTCursorToListDItem()"
-        return get_res_from_jupiter(message)
-    def MacroTCursorToDItem():
-        message = "JPT.MacroTCursorToDItem()"
-        return get_res_from_jupiter(message)
-    def ConvertRGBToJPTColor():
-        message = "JPT.ConvertRGBToJPTColor()"
-        return get_res_from_jupiter(message)
-    def GetJTDBVersion():
-        message = "JPT.GetJTDBVersion()"
-        return get_res_from_jupiter(message)
-    def CopyToClipBoard():
-        message = "JPT.CopyToClipBoard()"
-        return get_res_from_jupiter(message)
-    def CheckLicense():
-        message = "JPT.CheckLicense()"
-        return get_res_from_jupiter(message)
-    def IsDefaultDouble():
-        message = "JPT.IsDefaultDouble()"
-        return get_res_from_jupiter(message)
-    def IsDefaultInt():
-        message = "JPT.IsDefaultInt()"
-        return get_res_from_jupiter(message)
-    def ConvertFromDocUnit():
-        message = "JPT.ConvertFromDocUnit()"
-        return get_res_from_jupiter(message)
-    def ConvertValueToDocUnit():
-        message = "JPT.ConvertValueToDocUnit()"
-        return get_res_from_jupiter(message)
-    def ConvertFromMacroUnit():
-        message = "JPT.ConvertFromMacroUnit()"
-        return get_res_from_jupiter(message)
-    def ConvertValueToMacroUnit():
-        message = "JPT.ConvertValueToMacroUnit()"
-        return get_res_from_jupiter(message)
-    def GetJPTTempPath():
-        message = "JPT.GetJPTTempPath()"
-        return get_res_from_jupiter(message)
-    def ListDoubleToMacroVector():
-        message = "JPT.ListDoubleToMacroVector()"
-        return get_res_from_jupiter(message)
-    def GetCurrentDocumentPath():
-        message = "JPT.GetCurrentDocumentPath()"
-        return get_res_from_jupiter(message)
-    def QuitApplication():
-        message = "JPT.QuitApplication()"
-        return get_res_from_jupiter(message)
-    def GetAppPathInfo():
-        message = "JPT.GetAppPathInfo()"
-        return get_res_from_jupiter(message)
-    def GetSelectedNodes():
-        message = "JPT.GetSelectedNodes()"
-        return get_res_from_jupiter(message)
-    def GetSelectedElems():
-        message = "JPT.GetSelectedElems()"
-        return get_res_from_jupiter(message)
-    def GetSelectedFaces():
-        message = "JPT.GetSelectedFaces()"
-        return get_res_from_jupiter(message)
-    def GetSelectedEdges():
-        message = "JPT.GetSelectedEdges()"
-        return get_res_from_jupiter(message)
-    def GetSelectedParts():
-        message = "JPT.GetSelectedParts()"
-        return get_res_from_jupiter(message)
-    def GetSelectedGroups():
-        message = "JPT.GetSelectedGroups()"
-        return get_res_from_jupiter(message)
-    def GetAllParts():
-        message = "JPT.GetAllParts()"
-        return get_res_from_jupiter(message)
-    def GetAllFaces():
-        message = "JPT.GetAllFaces()"
-        return get_res_from_jupiter(message)
-    def GetAllEdges():
-        message = "JPT.GetAllEdges()"
-        return get_res_from_jupiter(message)
-    def GetAllElems():
-        message = "JPT.GetAllElems()"
-        return get_res_from_jupiter(message)
-    def GetAllNodes():
-        message = "JPT.GetAllNodes()"
-        return get_res_from_jupiter(message)
-    def GetAllGroups():
-        message = "JPT.GetAllGroups()"
-        return get_res_from_jupiter(message)
-    def GetAllByTableTypeID():
-        message = "JPT.GetAllByTableTypeID()"
-        return get_res_from_jupiter(message)
-    def GetAllByTypeID():
-        message = "JPT.GetAllByTypeID()"
-        return get_res_from_jupiter(message)
-    def GetAllByType():
-        message = "JPT.GetAllByType()"
-        return get_res_from_jupiter(message)
-    def GetCountByType():
-        message = "JPT.GetCountByType()"
-        return get_res_from_jupiter(message)
-    def GetAllSelected():
-        message = "JPT.GetAllSelected()"
-        return get_res_from_jupiter(message)
-    def GetLastCreatedCursor():
-        message = "JPT.GetLastCreatedCursor()"
-        return get_res_from_jupiter(message)
-    def GetCenterOfEntities():
-        message = "JPT.GetCenterOfEntities()"
-        return get_res_from_jupiter(message)
-    def GetSharedFaces():
-        message = "JPT.GetSharedFaces()"
-        return get_res_from_jupiter(message)
-    def GetSharedElements():
-        message = "JPT.GetSharedElements()"
-        return get_res_from_jupiter(message)
-    def GetSharedNodes():
-        message = "JPT.GetSharedNodes()"
-        return get_res_from_jupiter(message)
-    def GetAllLoadsBCs():
-        message = "JPT.GetAllLoadsBCs()"
-        return get_res_from_jupiter(message)
-    def GetMaterialXML():
-        message = "JPT.GetMaterialXML()"
-        return get_res_from_jupiter(message)
-    def GetMaterialOriginalXML():
-        message = "JPT.GetMaterialOriginalXML()"
-        return get_res_from_jupiter(message)
-    def GetMaxMaterialID():
-        message = "JPT.GetMaxMaterialID()"
-        return get_res_from_jupiter(message)
-    def GetMaterialDBById():
-        message = "JPT.GetMaterialDBById()"
-        return get_res_from_jupiter(message)
-    def GetSelectedNodesCr():
-        message = "JPT.GetSelectedNodesCr()"
-        return get_res_from_jupiter(message)
-    def GetSelectedElemsCr():
-        message = "JPT.GetSelectedElemsCr()"
-        return get_res_from_jupiter(message)
-    def GetSelectedFacesCr():
-        message = "JPT.GetSelectedFacesCr()"
-        return get_res_from_jupiter(message)
-    def GetSelectedEdgesCr():
-        message = "JPT.GetSelectedEdgesCr()"
-        return get_res_from_jupiter(message)
-    def GetSelectedPartsCr():
-        message = "JPT.GetSelectedPartsCr()"
-        return get_res_from_jupiter(message)
-    def GetSelectedGroupsCr():
-        message = "JPT.GetSelectedGroupsCr()"
-        return get_res_from_jupiter(message)
-    def GetUndoCount():
-        message = "JPT.GetUndoCount()"
-        return get_res_from_jupiter(message)
-    def ClearUndo():
-        message = "JPT.ClearUndo()"
-        return get_res_from_jupiter(message)
-    def GetRedoCount():
-        message = "JPT.GetRedoCount()"
-        return get_res_from_jupiter(message)
-    def ClearRedo():
-        message = "JPT.ClearRedo()"
-        return get_res_from_jupiter(message)
-    def GetOpnList():
-        message = "JPT.GetOpnList()"
-        return get_res_from_jupiter(message)
-    def GetMacroLog():
-        message = "JPT.GetMacroLog()"
-        return get_res_from_jupiter(message)
-    def GetPythonAPILog():
-        message = "JPT.GetPythonAPILog()"
-        return get_res_from_jupiter(message)
-    def ShowHideEntitiesByID():
-        message = "JPT.ShowHideEntitiesByID()"
-        return get_res_from_jupiter(message)
-    def ShowHideAllParts():
-        message = "JPT.ShowHideAllParts()"
-        return get_res_from_jupiter(message)
-    def InverseHideBodies():
-        message = "JPT.InverseHideBodies()"
-        return get_res_from_jupiter(message)
-    def ViewFitToModel():
-        message = "JPT.ViewFitToModel()"
-        return get_res_from_jupiter(message)
-    def Exec():
-        message = "JPT.Exec()"
-        return get_res_from_jupiter(message)
-    def GetMaxIDEntity():
-        message = "JPT.GetMaxIDEntity()"
-        return get_res_from_jupiter(message)
-    def GetMinIDEntity():
-        message = "JPT.GetMinIDEntity()"
-        return get_res_from_jupiter(message)
-    def GetEntitiesByName():
-        message = "JPT.GetEntitiesByName()"
-        return get_res_from_jupiter(message)
-    def GetEntitiesByID():
-        message = "JPT.GetEntitiesByID()"
-        return get_res_from_jupiter(message)
-    def GetEntitiesByPosition():
-        message = "JPT.GetEntitiesByPosition()"
-        return get_res_from_jupiter(message)
-    def GetEntitiesByAssociation():
-        message = "JPT.GetEntitiesByAssociation()"
-        return get_res_from_jupiter(message)
-    def GetEntitiesByAdjacent():
-        message = "JPT.GetEntitiesByAdjacent()"
-        return get_res_from_jupiter(message)
-    def MsgOut():
-        message = "JPT.MsgOut()"
-        return get_res_from_jupiter(message)
-    def PrintAppPathInfo():
-        message = "JPT.PrintAppPathInfo()"
-        return get_res_from_jupiter(message)
-    def PrintPSJUtilityManual():
-        message = "JPT.PrintPSJUtilityManual()"
-        return get_res_from_jupiter(message)
-    def Debugger():
-        message = "JPT.Debugger()"
-        return get_res_from_jupiter(message)
-    def GetElemsByKind():
-        message = "JPT.GetElemsByKind()"
-        return get_res_from_jupiter(message)
-    def GetRandomJPTColor():
-        message = "JPT.GetRandomJPTColor()"
-        return get_res_from_jupiter(message)
-    def ConvertJPTColorToRGB():
-        message = "JPT.ConvertJPTColorToRGB()"
-        return get_res_from_jupiter(message)
-    def ClearLog():
-        message = "JPT.ClearLog()"
-        return get_res_from_jupiter(message)
-    def SetSelectMethod():
-        message = "JPT.SetSelectMethod()"
-        return get_res_from_jupiter(message)
-    def MacroTCursorPairToDItemPair():
-        message = "JPT.MacroTCursorPairToDItemPair()"
-        return get_res_from_jupiter(message)
-    def MessageBoxPSJ():
-        message = "JPT.MessageBoxPSJ()"
-        return get_res_from_jupiter(message)
-    def CastDItemToDFace():
-        message = "JPT.CastDItemToDFace()"
-        return get_res_from_jupiter(message)
-    def DItemToMacroTCursorPair():
-        message = "JPT.DItemToMacroTCursorPair()"
-        return get_res_from_jupiter(message)
-    def GetProgramPath():
-        message = "JPT.GetProgramPath()"
+    def RemoveEntitiesByID(Input1,Input2):
+        message = "JPT.RemoveEntitiesByID({},{})".format(Input1,Input2)
         return get_res_from_jupiter(message)
 
+    def RemoveEntitiesByName(Input1,Input2,Input3):
+        message = "JPT.RemoveEntitiesByName({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def RemoveAllConnections():
+        message = "JPT.RemoveAllConnections()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllMaterials():
+        message = "JPT.RemoveAllMaterials()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveWSProperties():
+        message = "JPT.RemoveWSProperties()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllLoadsBCs():
+        message = "JPT.RemoveAllLoadsBCs()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllMeshSettings():
+        message = "JPT.RemoveAllMeshSettings()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllFieldTables():
+        message = "JPT.RemoveAllFieldTables()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllAbaqusStep():
+        message = "JPT.RemoveAllAbaqusStep()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllSolverjob():
+        message = "JPT.RemoveAllSolverjob()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllByTableType(Input1):
+        message = "JPT.RemoveAllByTableType({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CreateSubAssembly(Input1,Input2):
+        message = "JPT.CreateSubAssembly({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def DeleteSubAssembly(Input1):
+        message = "JPT.DeleteSubAssembly({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def FindSubAssemblyByName(Input1):
+        message = "JPT.FindSubAssemblyByName({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def FindSubAssemblyByID(Input1):
+        message = "JPT.FindSubAssemblyByID({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def DeleteSubAssemblyRecursively(Input1):
+        message = "JPT.DeleteSubAssemblyRecursively({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetAllPartsInSubAssembly(Input1):
+        message = "JPT.GetAllPartsInSubAssembly({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastToDItem(Input1):
+        message = "JPT.CastToDItem({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastDItemToDBody(Input1):
+        message = "JPT.CastDItemToDBody({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastDItemToDFace(Input1):
+        message = "JPT.CastDItemToDFace({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastDItemToDElem(Input1):
+        message = "JPT.CastDItemToDElem({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastDItemToDEdge(Input1):
+        message = "JPT.CastDItemToDEdge({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastDItemToDGroup(Input1):
+        message = "JPT.CastDItemToDGroup({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CastDItemToDNode(Input1):
+        message = "JPT.CastDItemToDNode({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def DItemToMacroTCursorPair(Input1,Input2):
+        message = "JPT.DItemToMacroTCursorPair({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def ListDoubleToMacroVector(Input1,Input2,Input3):
+        message = "JPT.ListDoubleToMacroVector({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def DTVector3dToMacroVector(Input1):
+        message = "JPT.DTVector3dToMacroVector({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def DItemToMacroTCursor(Input1):
+        message = "JPT.DItemToMacroTCursor({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def DItemListToMacroListTCursor(Input1):
+        message = "JPT.DItemListToMacroListTCursor({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def DItemToMacroListTCursor(Input1):
+        message = "JPT.DItemToMacroListTCursor({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def MacroResultParser(Input1,Input2):
+        message = "JPT.MacroResultParser({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def MacroListTCursorToListDItem(Input1):
+        message = "JPT.MacroListTCursorToListDItem({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def ConvertRGBToJPTColor(Input1):
+        message = "JPT.ConvertRGBToJPTColor({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def MacroTCursorToDItem(Input1):
+        message = "JPT.MacroTCursorToDItem({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetJTDBVersion():
+        message = "JPT.GetJTDBVersion()".format()
+        return get_res_from_jupiter(message)
+
+    def CopyToClipBoard(Input1):
+        message = "JPT.CopyToClipBoard({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def CheckLicense(Input1):
+        message = "JPT.CheckLicense({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def IsDefaultDouble(Input1):
+        message = "JPT.IsDefaultDouble({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def IsDefaultInt(Input1):
+        message = "JPT.IsDefaultInt({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def ConvertFromDocUnit(Input1,Input2):
+        message = "JPT.ConvertFromDocUnit({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def ConvertValueToDocUnit(Input1,Input2):
+        message = "JPT.ConvertValueToDocUnit({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def ConvertFromMacroUnit(Input1,Input2,Input3):
+        message = "JPT.ConvertFromMacroUnit({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def ConvertValueToMacroUnit(Input1,Input2,Input3):
+        message = "JPT.ConvertValueToMacroUnit({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def GetJPTTempPath():
+        message = "JPT.GetJPTTempPath()".format()
+        return get_res_from_jupiter(message)
+
+    def GetProgramPath():
+        message = "JPT.GetProgramPath()".format()
+        return get_res_from_jupiter(message)
+
+    def GetCurrentDocumentPath():
+        message = "JPT.GetCurrentDocumentPath()".format()
+        return get_res_from_jupiter(message)
+
+    def QuitApplication():
+        message = "JPT.QuitApplication()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAppPathInfo(Input1):
+        message = "JPT.GetAppPathInfo({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetSelectedNodes():
+        message = "JPT.GetSelectedNodes()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedElems():
+        message = "JPT.GetSelectedElems()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedFaces():
+        message = "JPT.GetSelectedFaces()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedEdges():
+        message = "JPT.GetSelectedEdges()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedParts():
+        message = "JPT.GetSelectedParts()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedGroups():
+        message = "JPT.GetSelectedGroups()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllParts():
+        message = "JPT.GetAllParts()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllFaces():
+        message = "JPT.GetAllFaces()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllEdges():
+        message = "JPT.GetAllEdges()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllElems():
+        message = "JPT.GetAllElems()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllNodes():
+        message = "JPT.GetAllNodes()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllGroups():
+        message = "JPT.GetAllGroups()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllByTableTypeID(Input1):
+        message = "JPT.GetAllByTableTypeID({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetAllByTypeID(Input1):
+        message = "JPT.GetAllByTypeID({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetAllByType(Input1):
+        message = "JPT.GetAllByType({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetCountByType(Input1: DItem Type):
+        message = "JPT.GetCountByType({})".format(Input1: DItem Type)
+        return get_res_from_jupiter(message)
+
+    def GetLastCreatedCursor():
+        message = "JPT.GetLastCreatedCursor()".format()
+        return get_res_from_jupiter(message)
+
+    def GetAllSelected():
+        message = "JPT.GetAllSelected()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSharedFaces(Input1):
+        message = "JPT.GetSharedFaces({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetCenterOfEntities(Input1):
+        message = "JPT.GetCenterOfEntities({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetSharedElements(Input1):
+        message = "JPT.GetSharedElements({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetSharedNodes(Input1):
+        message = "JPT.GetSharedNodes({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetAllLoadsBCs():
+        message = "JPT.GetAllLoadsBCs()".format()
+        return get_res_from_jupiter(message)
+
+    def GetMaterialXML():
+        message = "JPT.GetMaterialXML()".format()
+        return get_res_from_jupiter(message)
+
+    def GetMaterialOriginalXML():
+        message = "JPT.GetMaterialOriginalXML()".format()
+        return get_res_from_jupiter(message)
+
+    def GetMaxMaterialID():
+        message = "JPT.GetMaxMaterialID()".format()
+        return get_res_from_jupiter(message)
+
+    def GetMaterialDBById():
+        message = "JPT.GetMaterialDBById()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedNodesCr():
+        message = "JPT.GetSelectedNodesCr()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedElemsCr():
+        message = "JPT.GetSelectedElemsCr()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedFacesCr():
+        message = "JPT.GetSelectedFacesCr()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedEdgesCr():
+        message = "JPT.GetSelectedEdgesCr()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedPartsCr():
+        message = "JPT.GetSelectedPartsCr()".format()
+        return get_res_from_jupiter(message)
+
+    def GetSelectedGroupsCr():
+        message = "JPT.GetSelectedGroupsCr()".format()
+        return get_res_from_jupiter(message)
+
+    def GetUndoCount():
+        message = "JPT.GetUndoCount()".format()
+        return get_res_from_jupiter(message)
+
+    def ClearUndo():
+        message = "JPT.ClearUndo()".format()
+        return get_res_from_jupiter(message)
+
+    def GetRedoCount():
+        message = "JPT.GetRedoCount()".format()
+        return get_res_from_jupiter(message)
+
+    def ClearRedo():
+        message = "JPT.ClearRedo()".format()
+        return get_res_from_jupiter(message)
+
+    def GetOpnList():
+        message = "JPT.GetOpnList()".format()
+        return get_res_from_jupiter(message)
+
+    def GetMacroLog():
+        message = "JPT.GetMacroLog()".format()
+        return get_res_from_jupiter(message)
+
+    def GetPythonAPILog():
+        message = "JPT.GetPythonAPILog()".format()
+        return get_res_from_jupiter(message)
+
+    def ShowHideEntitiesByID(Input1,Input2,Input3):
+        message = "JPT.ShowHideEntitiesByID({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def ShowHideAllParts(Input1):
+        message = "JPT.ShowHideAllParts({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def InverseHideBodies(Input1):
+        message = "JPT.InverseHideBodies({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def ViewFitToModel(Input1):
+        message = "JPT.ViewFitToModel({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def Exec(Input1):
+        message = "JPT.Exec({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetMaxIDEntity(Input1):
+        message = "JPT.GetMaxIDEntity({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetMinIDEntity(Input1):
+        message = "JPT.GetMinIDEntity({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetEntitiesByName(Input1,Input2,Input3):
+        message = "JPT.GetEntitiesByName({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def GetEntitiesByPosition(Input1,Input2,Input3,Input4):
+        message = "JPT.GetEntitiesByPosition({},{},{},{})".format(Input1,Input2,Input3,Input4)
+        return get_res_from_jupiter(message)
+
+    def GetEntitiesByID(Input1,Input2):
+        message = "JPT.GetEntitiesByID({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def GetEntitiesByAssociation(Input1,Input2,Input3):
+        message = "JPT.GetEntitiesByAssociation({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def MsgOut(Input1):
+        message = "JPT.MsgOut({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def PrintAppPathInfo():
+        message = "JPT.PrintAppPathInfo()".format()
+        return get_res_from_jupiter(message)
+
+    def GetEntitiesByAdjacent(Input1,Input2,Input3):
+        message = "JPT.GetEntitiesByAdjacent({},{},{})".format(Input1,Input2,Input3)
+        return get_res_from_jupiter(message)
+
+    def PrintPSJUtilityManual():
+        message = "JPT.PrintPSJUtilityManual()".format()
+        return get_res_from_jupiter(message)
+
+    def Debugger(Input1):
+        message = "JPT.Debugger({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetElemsByKind(Input1):
+        message = "JPT.GetElemsByKind({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def GetRandomJPTColor():
+        message = "JPT.GetRandomJPTColor()".format()
+        return get_res_from_jupiter(message)
+
+    def ConvertJPTColorToRGB(Input1):
+        message = "JPT.ConvertJPTColorToRGB({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def ClearLog():
+        message = "JPT.ClearLog()".format()
+        return get_res_from_jupiter(message)
+
+    def SetSelectMethod(Input1):
+        message = "JPT.SetSelectMethod({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def MacroTCursorPairToDItemPair(Input1):
+        message = "JPT.MacroTCursorPairToDItemPair({})".format(Input1)
+        return get_res_from_jupiter(message)
+
+    def MessageBoxPSJ(Input1,Input2):
+        message = "JPT.MessageBoxPSJ({},{})".format(Input1,Input2)
+        return get_res_from_jupiter(message)
+
+    def RemoveAllContacts():
+        message = "JPT.RemoveAllContacts()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllLoadCases():
+        message = "JPT.RemoveAllLoadCases()".format()
+        return get_res_from_jupiter(message)
+
+    def RemoveAllCoordinates():
+        message = "JPT.RemoveAllCoordinates()".format()
+        return get_res_from_jupiter(message)
 
