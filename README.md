@@ -2,6 +2,8 @@
 
 - python debug-test.py
 - python3 -m pip list
+- python3 setup.py sdist
+- python3 -m twine upload dist/*
 
 ## Paths
 

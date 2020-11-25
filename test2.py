@@ -1,3 +1,5 @@
-from Jupiter import *
+from package.jupiter_utils.Utility import get_res_from_jupiter
+from jupiter_utils import *
 
-JPT.MacroListTCursorToListDItem('[10:1, 10:*1, ...]')
+JPT.RemoveAllAbaqusStep()
+get_res_from_jupiter()
