@@ -30,6 +30,9 @@ if __name__ == '__main__':
     t2 = threading.Thread(name='non-blocking', 
                       target=wait_for_event_timeout, 
                       args=(e, 2))
+
+    # threading.Thread(target=self._thread_function, args=(arg1,),
+    #              kwargs={'arg2':arg2}, name='thread_function').start()
     t2.start()
 
     logging.debug('Waiting before calling Event.set()')
