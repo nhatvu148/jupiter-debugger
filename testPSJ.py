@@ -45,9 +45,10 @@ def open_Jupiter(e, t):
 
 def create_Cube(e):
     e.wait()
-    logging.debug('Event set: %s', e.isSet())
-    
+    logging.debug('Using Jupiter')
+    logging.debug('Create Cube')
     Geometry.Part.Cube()
+    logging.debug('Fit Model')
     JPT.ViewFitToModel()
     JPT.ClearLog()
     e.set()
@@ -57,3 +58,9 @@ t1 = threading.Thread(name='open_Jupiter', target=open_Jupiter, args=(e, 2))
 t2 = threading.Thread(name='create_Cube', target=create_Cube, args=(e,)) 
 t1.start()
 t2.start()
+
+i = 0
+while True:
+    time.sleep(1)
+    i += 1
+    logging.debug('Hello! %s times', i)
