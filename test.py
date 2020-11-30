@@ -1,7 +1,7 @@
 import sys
 # sys.path.append("C:\Program Files\TechnoStar\Jupiter-Pre_5.0")
 sys.path.append("./")
-import JPT
+from JPT import *
 # from client import get_res_from_socket
 # from PSJ_Wrapper import get_res_from_jupiter
 from jupiterutils import * 
