@@ -1,4 +1,4 @@
 {
   "python.formatting.provider": "yapf",
-  "python.pythonPath": "/Applications/Xcode.app/Contents/Developer/usr/bin/python3"
+  "python.pythonPath": "/Users/nhatvu148/Work/TypeScript/jupiter-debugger/venv/bin/python3"
 }
